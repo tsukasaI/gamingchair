@@ -1,0 +1,81 @@
+html body {
+  font-family: 'PT Serif', serif;
+  margin: 0px;
+  text-align: center;
+}
+
+html body .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+html body header .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+html body main .top {
+  background-image: url("../img/top.jpg");
+  background-size: cover;
+  padding: 300px 0;
+  color: #ffffff;
+}
+
+html body main .top h4 {
+  font-size: 6vw;
+}
+
+html body main .feature {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+html body main li .site,
+html body main li .price {
+  font-size: 1.1rem;
+  width: 80px;
+}
+
+html body main li .ec-btn a {
+  width: 160px;
+  font-size: 13px;
+}
+
+html body main .brand h4 {
+  margin-top: 20px;
+}
+
+html body main .feature-link {
+  font-size: .8rem;
+}
+
+html body main .material-image {
+  height: 250px;
+}
+
+html body main .fadeIn1,
+html body main .fadeIn2,
+html body main .fadeIn3,
+html body main .fadeIn4 {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px);
+}
+
+html body main .faded {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+html body main .brand .brand-wrapper.hover {
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 2px;
+          box-shadow: 0 0 2px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+/*# sourceMappingURL=style.css.map */

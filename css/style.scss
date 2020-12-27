@@ -1,0 +1,92 @@
+html {
+    body {
+        font-family: 'PT Serif', serif;
+        margin: 0px;
+        text-align: center;
+
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        header {
+            .navbar-toggler .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+
+        }
+
+        main {
+            .top {
+                background-image: url('../img/top.jpg');
+                background-size: cover;
+                padding: 300px 0;
+                color: #ffffff;
+
+                h4 {
+                    font-size: 6vw;
+                }
+
+            }
+
+            .feature {
+                background-color: #000000;
+                color: #ffffff;
+            }
+
+            li {
+
+                .site,
+                .price {
+                    font-size: 1.1rem;
+                    width: 80px;
+                }
+
+                .ec-btn {
+                    a {
+                        width: 160px;
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .brand {
+                h4 {
+                    margin-top: 20px;
+                }
+            }
+
+            .feature-link {
+                font-size: .8rem;
+            }
+
+            .material-image {
+                height: 250px;
+            }
+
+            .fadeIn1,
+            .fadeIn2,
+            .fadeIn3,
+            .fadeIn4 {
+                opacity: 0;
+                visibility: hidden;
+                transition: 1s;
+                transform: translateY(30px);
+            }
+
+            .faded {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+            }
+
+            .brand {
+                .brand-wrapper.hover {
+                    border-radius: 10px;
+                    box-shadow: 0 0 2px;
+                    transition: .5s;
+                }
+            }
+        }
+    }
+}
